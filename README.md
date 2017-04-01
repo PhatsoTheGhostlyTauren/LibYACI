@@ -35,7 +35,7 @@ Make sure to embed LibStub and LibYACI in your TOC.
     self.ObjectLength = _length
   end
 
-  function SampleClass:__add(rightSide) --lefthandside is passed in context to the first argument because of the :-Notation
+  function SampleClass:__add(rightSide) --lefthandside is passed in context because of the :-Notation
     local newname = self.ObjectName..rightSide.ObjectName
     local newlength = self.ObjectLength + rightSide.ObjectLength
     return SampleClass(newname,newlength)
