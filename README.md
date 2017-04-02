@@ -84,7 +84,7 @@ Inheritance
   - _Class_`:made(instance)` returns true if the _instance_ implements the _Class_
   - _Class_`:cast(instance)` returns a casted Instance of Type _Class_ if _Class_ is
     either a sub or super class of that object or raises an error
-  - _CLass_`_trycast(instance)` does the same as cast but returns nil instead of raising an error
+  - _Class_`:trycast(instance)` does the same as cast but returns nil instead of raising an error
 - Virtuality
   - When inheriting from Classes methods with the same name are stored within its own scope
   - using _Class_`:Virtual(methodName)` makes virtual (as in automatically overridden
