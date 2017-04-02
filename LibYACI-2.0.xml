@@ -1,4 +1,4 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
 	<Script file="yaci-1.2.0.lua"/>
-  <Script file="LibYACI-1.0.lua" />
+  <Script file="LibYACI-2.0.lua" />
 </Ui>
